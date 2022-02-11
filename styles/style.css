@@ -115,9 +115,11 @@
   font-weight: bolder;
 }
 
+/*______________________*/
+
 .digits {
-  display:flex;
-  position:relative;
+  display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
   border: 3px solid rgb(25, 0, 255);
@@ -127,26 +129,33 @@
 }
 
 .section-title {
+  display: flex;
+  justify-content: center;
   font-size: 60px;
   line-height: 1.15;
   font-weight: bolder;
   width: 60%;
+  margin-bottom: 20px;
   border: 3px solid rgb(255, 0, 140);
 }
 
 .section-subtitle {
+  display: flex;
+  justify-content: center;
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
   width: 60%;
-  margin-top: 20px;
   border: 3px solid rgb(255, 0, 140);
 }
 
 .table {
+  display: flex;
+  flex-direction: column;
   width: 1100px;
-  /*margin-left: auto;
-    margin-right: auto;*/
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
   border: 3px solid rgb(191, 0, 255);
 }
 
@@ -168,12 +177,23 @@
   font-weight: normal;
 }
 
+.table__text_1 {
+  margin-top: 20px;
+}
+
 .table__line_1 {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
   margin-top: 60px;
   margin-bottom: 60px;
 }
 
-.table__line_2 {}
+.table__line_2 {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
