@@ -181,7 +181,7 @@
   margin-top: 20px;
 }
 
-.table__line_1 {
+.table__line-1 {
   display: flex;
   position: relative;
   justify-content: space-between;
@@ -189,7 +189,7 @@
   margin-bottom: 60px;
 }
 
-.table__line_2 {
+.table__line-2 {
   display: flex;
   position: relative;
   justify-content: space-between;
@@ -250,10 +250,53 @@
 }
 
 /* и элемента с модификатором вида ключ-значение */
+.kaufman{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid rgb(25, 0, 255);
+  padding-bottom: 90px;
+  background-color:#000000;
+  }
+  .section-title__theme_dark{
+    margin-top: 90px;
+    color: white; 
+    border: 3px solid rgb(25, 0, 255);
+  }
+.section-subtitle__theme_dark{
+  margin-top: 20px;
+  color: white;
+  border: 3px solid rgb(25, 0, 255);
+}
+
+.table__theme_dark{
+     border: 3px solid rgb(25, 0, 255);
+}
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  border: 3px solid rgb(25, 0, 255);
+}
+.line-1__theme_dark{
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  border: 3px solid rgb(255, 0, 43);
+}
+.line-2__theme_dark{
+  display: flex;
+  position: relative;
+  justify-content: space-between;
 
+  border: 3px solid rgb(255, 0, 43);
+}
+.table__heding_theme_dark{
+  border: 3px solid rgb(255, 0, 43);
+}
+
+.table__text table__text_theme_dark{
+  border: 3px solid rgb(255, 0, 0);
 }
