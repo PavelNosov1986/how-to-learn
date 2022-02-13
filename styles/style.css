@@ -22,7 +22,7 @@
   /* выше установили ограничения для секции */
 }
 
-.logo_place_header {
+.logo__place_header {
   position: absolute;
   width: 183px;
   height: 32px;
@@ -160,7 +160,7 @@
 }
 
 .table__cell {
-  width: 250px;
+    width: 250px;
   /*border: 3px solid rgb(0, 255, 106);*/
 }
 
@@ -193,6 +193,7 @@
   display: flex;
   position: relative;
   justify-content: space-between;
+  /*border: 3px solid rgb(25, 0, 255);*/
 }
 
 .feynman {
@@ -255,48 +256,51 @@
   position: relative;
   flex-direction: column;
   align-items: center;
-  border: 3px solid rgb(25, 0, 255);
+  /*border: 3px solid rgb(25, 0, 255);*/
   padding-bottom: 90px;
   background-color:#000000;
-  }
+  overflow: hidden;
+   }
+
   .section-title__theme_dark{
     margin-top: 90px;
     color: white; 
-    border: 3px solid rgb(25, 0, 255);
+    /*border: 3px solid rgb(25, 0, 255);*/
   }
 .section-subtitle__theme_dark{
   margin-top: 20px;
   color: white;
-  border: 3px solid rgb(25, 0, 255);
+  /*border: 3px solid rgb(25, 0, 255);*/
 }
 
-.table__theme_dark{
-     border: 3px solid rgb(25, 0, 255);
-}
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
-  border: 3px solid rgb(25, 0, 255);
+ /* border: 3px solid rgb(25, 0, 255);*/
 }
 .line-1__theme_dark{
   display: flex;
   position: relative;
   justify-content: space-between;
-  border: 3px solid rgb(255, 0, 43);
+ /* border: 3px solid rgb(255, 0, 43);*/
 }
 .line-2__theme_dark{
   display: flex;
   position: relative;
   justify-content: space-between;
-
-  border: 3px solid rgb(255, 0, 43);
-}
-.table__heding_theme_dark{
-  border: 3px solid rgb(255, 0, 43);
+  /*border: 3px solid rgb(255, 0, 43);*/
 }
 
-.table__text table__text_theme_dark{
-  border: 3px solid rgb(255, 0, 0);
-}
+.kaufman__triangle{ 
+  background-image:url(../images/kaufman-triangle.svg);
+  position: absolute;
+  background-size: contain;
+  top: 0;
+  right: -210px;
+  z-index: 0;
+  width: 877px;
+  height: 877px;
+  /*border: 3px solid rgb(255, 0, 43);*/
+  }
