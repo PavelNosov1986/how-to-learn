@@ -18,8 +18,6 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /*border: 3px solid red;*/
-  /* выше установили ограничения для секции */
 }
 
 .logo__place_header {
@@ -28,17 +26,15 @@
   height: 32px;
   top: 30px;
   left: 64px;
-  /*border: 3px solid red;*/
 }
 
 .header__title {
   position: absolute;
   font-size: 102px;
   line-height: 96px;
-  font-weight: bolder;
+  font-weight: bold;
   width: 730px;
   left: 64px;
-  /*border: 3px solid red;*/
 }
 
 .header__subtitle {
@@ -49,7 +45,14 @@
   width: 388px;
   left: 64px;
   bottom: 30px;
-  /*border: 3px solid red;*/
+}
+
+.heder__link {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #2f80ed;
 }
 
 .heder__main-illustration {
@@ -59,7 +62,6 @@
   right: 0px;
   bottom: 0px;
   z-index: 1;
-  /*border: 3px solid red;*/
 }
 
 .header__square-pic {
@@ -70,7 +72,6 @@
   width: 568px;
   background-color: #2f80ed;
   z-index: 0;
-  /*border: 3px solid red;*/
 }
 
 .description {
@@ -86,7 +87,6 @@
   justify-content: space-between;
   width: 80%;
   min-height: auto;
-  /*border: 3px solid rgb(72, 255, 0);*/
 }
 
 .two-colums__brief {
@@ -95,7 +95,6 @@
   font-weight: normal;
   color: #2f80ed;
   width: 175px;
-  /*border: 3px solid red;*/
 }
 
 .two-colums__main-text {
@@ -104,7 +103,6 @@
   font-weight: normal;
   width: 80%;
   min-width: 784px;
-  /*border: 3px solid rgb(255, 217, 0);*/
 }
 
 .two-colums__paragraph_centr {
@@ -112,7 +110,7 @@
 }
 
 .two-colums__span-accent {
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .digits {
@@ -120,7 +118,6 @@
   position: relative;
   flex-direction: column;
   align-items: center;
-  /*border: 3px solid rgb(25, 0, 255);*/
   padding-top: 100px;
   padding-bottom: 100px;
   margin-bottom: 100px;
@@ -133,10 +130,9 @@
   justify-content: center;
   font-size: 60px;
   line-height: 1.15;
-  font-weight: bolder;
+  font-weight: bold;
   width: 60%;
   margin-bottom: 20px;
-  /*border: 3px solid rgb(255, 0, 140);*/
 }
 
 .section-subtitle {
@@ -147,7 +143,6 @@
   font-weight: normal;
   width: 60%;
   margin-bottom: 0px;
-  /*border: 3px solid rgb(255, 0, 140);*/
 }
 
 .table {
@@ -156,18 +151,16 @@
   width: 1100px;
   justify-content: space-between;
   margin: auto;
-  /*border: 3px solid rgb(191, 0, 255);*/
 }
 
 .table__cell {
-    width: 250px;
-  /*border: 3px solid rgb(0, 255, 106);*/
+  width: 250px;
 }
 
 .table__heding {
   font-size: 24px;
   line-height: 1.15;
-  font-weight: bolder;
+  font-weight: bold;
   margin-bottom: 20px;
 }
 
@@ -193,7 +186,6 @@
   display: flex;
   position: relative;
   justify-content: space-between;
-  /*border: 3px solid rgb(25, 0, 255);*/
 }
 
 .feynman {
@@ -203,8 +195,6 @@
   justify-content: center;
   height: 890px;
   z-index: -1;
-  /*align-items: center;*/
-  /* border: 3px solid rgb(25, 0, 255);*/
 }
 
 .feyman__title {
@@ -212,11 +202,10 @@
   text-align: center;
   font-size: 120px;
   line-height: 1.15;
-  font-weight: bolder;
+  font-weight: bold;
   width: 648px;
   margin-top: 100px;
   z-index: 1;
-  /*border: 3px solid rgb(25, 0, 255);*/
 }
 
 .feyman__subtitle {
@@ -226,7 +215,6 @@
   font-weight: normal;
   top: 50%;
   z-index: 1;
-  /*border: 3px solid rgb(25, 0, 255);*/
 }
 
 .feyman__link {
@@ -237,8 +225,8 @@
   color: #2f80ed;
   top: 50%;
   right: 48px;
-  z-index: 1;
-  /*border: 3px solid rgb(25, 0, 255);*/
+  z-index: 2;
+  text-decoration: none;
 }
 
 .feynman__imamage {
@@ -250,27 +238,24 @@
   z-index: 0;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.kaufman{
+.kaufman {
   display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;
-  /*border: 3px solid rgb(25, 0, 255);*/
   padding-bottom: 90px;
-  background-color:#000000;
+  background-color: #000000;
   overflow: hidden;
-   }
+}
 
-  .section-title__theme_dark{
-    margin-top: 90px;
-    color: white; 
-    /*border: 3px solid rgb(25, 0, 255);*/
-  }
-.section-subtitle__theme_dark{
+.section-title__theme_dark {
+  margin-top: 90px;
+  color: white;
+}
+
+.section-subtitle__theme_dark {
   margin-top: 20px;
   color: white;
-  /*border: 3px solid rgb(25, 0, 255);*/
 }
 
 .table__cell_theme_dark {
@@ -278,23 +263,22 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
- /* border: 3px solid rgb(25, 0, 255);*/
-}
-.line-1__theme_dark{
-  display: flex;
-  position: relative;
-  justify-content: space-between;
- /* border: 3px solid rgb(255, 0, 43);*/
-}
-.line-2__theme_dark{
-  display: flex;
-  position: relative;
-  justify-content: space-between;
-  /*border: 3px solid rgb(255, 0, 43);*/
 }
 
-.kaufman__triangle{ 
-  background-image:url(../images/kaufman-triangle.svg);
+.line-1__theme_dark {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.line-2__theme_dark {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.kaufman__triangle {
+  background-image: url(../images/kaufman-triangle.svg);
   position: absolute;
   background-size: contain;
   top: 0;
@@ -302,5 +286,67 @@
   z-index: 0;
   width: 877px;
   height: 877px;
-  /*border: 3px solid rgb(255, 0, 43);*/
-  }
+}
+
+.footer {
+  box-sizing: border-box;
+  min-height: 350px;
+  padding: 60px 0 40px;
+  background-color: #000000
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 90%;
+  min-height: 250px;
+}
+
+.footer__column_content_copyright {
+  display: flex;
+  border: 3px solid rgb(3, 5, 3);
+  justify-content: space-between;
+  flex-direction: column;
+  flex-basis: 711px;
+}
+
+.footer__column_content_info {
+  flex-direction: column;
+  justify-content: start;
+}
+
+.logo__place_footer {
+  width: 183px;
+  height: 35px;
+}
+
+.footer__auther {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  margin-bottom: 18px;
+  color: white;
+}
+
+.footer__column-heading {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__column-links {
+  list-style: none;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+  padding: 0;
+}
+
+.footer__column-link {
+  text-decoration: none;
+  color: white;
+}
