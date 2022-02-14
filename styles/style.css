@@ -245,12 +245,12 @@
   overflow: hidden;
 }
 
-.section-title__theme_dark {
+.section-title_theme_dark {
   margin-top: 90px;
   color: white;
 }
 
-.section-subtitle__theme_dark {
+.section-subtitle_theme_dark {
   margin-top: 20px;
   color: white;
 }
