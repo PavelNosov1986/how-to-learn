@@ -4,5 +4,11 @@
 @import url(../body/header/__subtitele/header__subtitle.css);
 @import url(../body/header/__link/header__link.css);
 @import url(../body/header/__main-illustration/header__main-illustration.css);
-@import url(../body/header/__square-pic/header__square-pic.css);
+@import url(../body/rotation/rotate.css);
 @import url(../body/header/__logo/header__logo.css);
+@import url(../body/content/description/description.css);
+@import url(../body/content/description/two-columns/two-columns.css);
+@import url(../body/content/description/two-columns/__brief/two-columns__brief.css);
+@import url(../body/content/description/two-columns/__main-text/two-columns__main-text.css);
+@import url(../body/content/description/two-columns/__paragraph/two-columns__paragraph.css);
+@import url(../body/content/description/two-columns/__span-accent/two-columns__span-accent.css);
