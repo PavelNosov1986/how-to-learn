@@ -12,3 +12,16 @@
 @import url(../body/content/description/two-columns/__main-text/two-columns__main-text.css);
 @import url(../body/content/description/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../body/content/description/two-columns/__span-accent/two-columns__span-accent.css);
+@import url(../body/content/digits/digits.css);
+@import url(../body/content/digits/section-subtitle.css/section-subtitle.css);
+@import url(../body/content/digits/section-title.css/section-title.css);
+@import url(../body/content/digits/table/table.css);
+@import url(../body/content/digits/table/__cell.css/table__cell.css);
+@import url(../body/content/digits/table/__heading.css/table__heading.css);
+@import url(../body/content/digits/table/__text/table__text.css);
+@import url(../body/content/techniques/techniques.css);
+@import url(../body/content/techniques/cards/__item/cards__item.css);
+@import url(../body/content/techniques/cards/cards.css);
+@import url(../body/content/techniques/cards/__image/cards__image.css);
+@import url(../body/content/techniques/cards/__title/cards__title.css);
+@import url(../body/content/techniques/cards/__description/cards__description.css);
