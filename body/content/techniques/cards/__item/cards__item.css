@@ -1,4 +1,9 @@
-.cards__item{
-    width: 240px;
-        border:1px solid red;
+.cards__item {
+  width: 240px;
+  box-sizing: border-box;
+  margin-left: 100px;
+}
+
+.cards__item:nth-of-type(3n+1) {
+  margin-left: 0;
 }
