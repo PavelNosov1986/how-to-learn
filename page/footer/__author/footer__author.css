@@ -1,7 +1,7 @@
-.header__link {
+.footer__author {
     font-size: 18px;
     line-height: 25px;
     font-weight: normal;
-    text-decoration: none;
-    color: #2f80ed;
+    margin-bottom: 18px;
+    color: white;
   }
